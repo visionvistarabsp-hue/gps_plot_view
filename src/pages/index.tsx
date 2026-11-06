@@ -27,7 +27,6 @@ export default function HomePage() {
   const router = useRouter();
   const [properties, setProperties] = useState<PropertyData[]>(INITIAL_PROPERTIES);
   const [selectedProperty, setSelectedProperty] = useState<PropertyData | null>(null);
-  const [baseLayer, setBaseLayer] = useState<'esri' | 'osm' | 'cartoDark'>('esri');
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [isBookModalOpen, setIsBookModalOpen] = useState(false);
   const [isFullscreen, setIsFullscreen] = useState(false);
@@ -262,7 +261,7 @@ export default function HomePage() {
           properties={properties}
           selectedProperty={selectedProperty}
           onSelectProperty={setSelectedProperty}
-          baseLayer={baseLayer}
+          baseLayer="osm"
           filters={filters}
           fitBoundsTrigger={fitBoundsTrigger}
           userLocation={userLocation as [number, number] | null}
@@ -308,11 +307,9 @@ export default function HomePage() {
         onReload={loadNearby}
       />
 
-      {/* Left Bottom Legend & Map Mode Toggles */}
+      {/* Left Bottom Legend & Map Controls */}
       <Legend
         properties={filteredProperties}
-        baseLayer={baseLayer}
-        onToggleBaseLayer={setBaseLayer}
         onResetView={handleResetView}
         onToggleFullscreen={handleToggleFullscreen}
         isFullscreen={isFullscreen}

@@ -1,12 +1,10 @@
 import React from 'react';
-import { Layers, Globe, Maximize2, RotateCcw, Map as MapIcon } from 'lucide-react';
+import { Maximize2, RotateCcw } from 'lucide-react';
 import { STATUS_COLORS } from '@/config/map-config';
 import { PropertyData } from '@/types/property';
 
 interface LegendProps {
   properties: PropertyData[];
-  baseLayer: 'esri' | 'osm' | 'cartoDark';
-  onToggleBaseLayer: (layer: 'esri' | 'osm' | 'cartoDark') => void;
   onResetView: () => void;
   onToggleFullscreen: () => void;
   isFullscreen: boolean;
@@ -14,8 +12,6 @@ interface LegendProps {
 
 export const Legend: React.FC<LegendProps> = ({
   properties,
-  baseLayer,
-  onToggleBaseLayer,
   onResetView,
   onToggleFullscreen,
   isFullscreen
@@ -39,49 +35,8 @@ export const Legend: React.FC<LegendProps> = ({
 
   return (
     <div className="absolute bottom-4 left-4 z-30 pointer-events-auto flex flex-col gap-2">
-      {/* Map Control Buttons [Satellite] [Map] [Reset] [Fullscreen] */}
+      {/* Map controls */}
       <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-2xl">
-        <button
-          onClick={() => onToggleBaseLayer('esri')}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
-            baseLayer === 'esri'
-              ? 'bg-emerald-600 text-white shadow-md'
-              : 'text-slate-300 hover:text-white hover:bg-slate-800'
-          }`}
-          title="Switch to High-Resolution Satellite View"
-        >
-          <Globe className="w-3.5 h-3.5" />
-          <span>Satellite</span>
-        </button>
-
-        <button
-          onClick={() => onToggleBaseLayer('osm')}
-          className={`flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all ${
-            baseLayer === 'osm'
-              ? 'bg-emerald-600 text-white shadow-md'
-              : 'text-slate-300 hover:text-white hover:bg-slate-800'
-          }`}
-          title="Switch to Standard Street Map"
-        >
-          <MapIcon className="w-3.5 h-3.5" />
-          <span>Map</span>
-        </button>
-
-        <button
-          onClick={() => onToggleBaseLayer('cartoDark')}
-          className={`hidden md:flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl text-xs font-semibold transition-all ${
-            baseLayer === 'cartoDark'
-              ? 'bg-emerald-600 text-white shadow-md'
-              : 'text-slate-300 hover:text-white hover:bg-slate-800'
-          }`}
-          title="Switch to Dark Vector Map"
-        >
-          <Layers className="w-3.5 h-3.5" />
-          <span>Dark</span>
-        </button>
-
-        <div className="w-px h-5 bg-slate-700/80 my-auto mx-0.5" />
-
         <button
           onClick={onResetView}
           className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
