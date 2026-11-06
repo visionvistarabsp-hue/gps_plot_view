@@ -1,0 +1,3110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "plot-59",
+      "properties": {
+        "id": "plot-59",
+        "plotNumber": "59",
+        "type": "residential",
+        "status": "available",
+        "area": 1800,
+        "price": 6900000,
+        "facing": "East",
+        "model_object_id": "PLOT_59",
+        "center": [
+          82.0948418,
+          22.033796
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0947369,
+              22.0338715
+            ],
+            [
+              82.0949468,
+              22.0339205
+            ],
+            [
+              82.0949468,
+              22.0337206
+            ],
+            [
+              82.0947115,
+              22.0337206
+            ],
+            [
+              82.0947369,
+              22.0338715
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-58",
+      "properties": {
+        "id": "plot-58",
+        "plotNumber": "58",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 6300000,
+        "facing": "East",
+        "model_object_id": "PLOT_58",
+        "center": [
+          82.0948291,
+          22.0336647
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0947115,
+              22.0337206
+            ],
+            [
+              82.0949468,
+              22.0337206
+            ],
+            [
+              82.0949468,
+              22.0336088
+            ],
+            [
+              82.0946945,
+              22.0336088
+            ],
+            [
+              82.0947115,
+              22.0337206
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-57",
+      "properties": {
+        "id": "plot-57",
+        "plotNumber": "57",
+        "type": "residential",
+        "status": "sold",
+        "area": 1500,
+        "price": 5700000,
+        "facing": "East",
+        "model_object_id": "PLOT_57",
+        "center": [
+          82.0948206,
+          22.033552
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946945,
+              22.0336088
+            ],
+            [
+              82.0949468,
+              22.0336088
+            ],
+            [
+              82.0949468,
+              22.0334952
+            ],
+            [
+              82.0946797,
+              22.0334952
+            ],
+            [
+              82.0946945,
+              22.0336088
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-56",
+      "properties": {
+        "id": "plot-56",
+        "plotNumber": "56",
+        "type": "residential",
+        "status": "available",
+        "area": 1350,
+        "price": 5100000,
+        "facing": "East",
+        "model_object_id": "PLOT_56",
+        "center": [
+          82.0948132,
+          22.0334393
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946797,
+              22.0334952
+            ],
+            [
+              82.0949468,
+              22.0334952
+            ],
+            [
+              82.0949468,
+              22.0333834
+            ],
+            [
+              82.0946627,
+              22.0333834
+            ],
+            [
+              82.0946797,
+              22.0334952
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-55",
+      "properties": {
+        "id": "plot-55",
+        "plotNumber": "55",
+        "type": "residential",
+        "status": "available",
+        "area": 1200,
+        "price": 4500000,
+        "facing": "East",
+        "model_object_id": "PLOT_55",
+        "center": [
+          82.0948047,
+          22.0333266
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946627,
+              22.0333834
+            ],
+            [
+              82.0949468,
+              22.0333834
+            ],
+            [
+              82.0949468,
+              22.0332698
+            ],
+            [
+              82.0946479,
+              22.0332698
+            ],
+            [
+              82.0946627,
+              22.0333834
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-54",
+      "properties": {
+        "id": "plot-54",
+        "plotNumber": "54",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1800,
+        "price": 6900000,
+        "facing": "East",
+        "model_object_id": "PLOT_54",
+        "center": [
+          82.0947973,
+          22.0332041
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946479,
+              22.0332698
+            ],
+            [
+              82.0949468,
+              22.0332698
+            ],
+            [
+              82.0949468,
+              22.0331384
+            ],
+            [
+              82.094633,
+              22.0331384
+            ],
+            [
+              82.0946479,
+              22.0332698
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-53",
+      "properties": {
+        "id": "plot-53",
+        "plotNumber": "53",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 6300000,
+        "facing": "East",
+        "model_object_id": "PLOT_53",
+        "center": [
+          82.0947899,
+          22.033063
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.094633,
+              22.0331384
+            ],
+            [
+              82.0949468,
+              22.0331384
+            ],
+            [
+              82.0949468,
+              22.0329875
+            ],
+            [
+              82.0946373,
+              22.0329875
+            ],
+            [
+              82.094633,
+              22.0331384
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-52",
+      "properties": {
+        "id": "plot-52",
+        "plotNumber": "52",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1500,
+        "price": 5700000,
+        "facing": "East",
+        "model_object_id": "PLOT_52",
+        "center": [
+          82.094792,
+          22.0329121
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946373,
+              22.0329875
+            ],
+            [
+              82.0949468,
+              22.0329875
+            ],
+            [
+              82.0949468,
+              22.0328366
+            ],
+            [
+              82.0946415,
+              22.0328366
+            ],
+            [
+              82.0946373,
+              22.0329875
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-43",
+      "properties": {
+        "id": "plot-43",
+        "plotNumber": "43",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_43",
+        "center": [
+          82.0952372,
+          22.0337911
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0338499
+            ],
+            [
+              82.095375,
+              22.0338499
+            ],
+            [
+              82.095375,
+              22.0337323
+            ],
+            [
+              82.0950994,
+              22.0337323
+            ],
+            [
+              82.0950994,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-44",
+      "properties": {
+        "id": "plot-44",
+        "plotNumber": "44",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_44",
+        "center": [
+          82.0952372,
+          22.0336735
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0337323
+            ],
+            [
+              82.095375,
+              22.0337323
+            ],
+            [
+              82.095375,
+              22.0336147
+            ],
+            [
+              82.0950994,
+              22.0336147
+            ],
+            [
+              82.0950994,
+              22.0337323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-45",
+      "properties": {
+        "id": "plot-45",
+        "plotNumber": "45",
+        "type": "residential",
+        "status": "sold",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_45",
+        "center": [
+          82.0952372,
+          22.0335569
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0336147
+            ],
+            [
+              82.095375,
+              22.0336147
+            ],
+            [
+              82.095375,
+              22.0334991
+            ],
+            [
+              82.0950994,
+              22.0334991
+            ],
+            [
+              82.0950994,
+              22.0336147
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-46",
+      "properties": {
+        "id": "plot-46",
+        "plotNumber": "46",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_46",
+        "center": [
+          82.0952372,
+          22.0334403
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0334991
+            ],
+            [
+              82.095375,
+              22.0334991
+            ],
+            [
+              82.095375,
+              22.0333815
+            ],
+            [
+              82.0950994,
+              22.0333815
+            ],
+            [
+              82.0950994,
+              22.0334991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-47",
+      "properties": {
+        "id": "plot-47",
+        "plotNumber": "47",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_47",
+        "center": [
+          82.0952372,
+          22.0333227
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0333815
+            ],
+            [
+              82.095375,
+              22.0333815
+            ],
+            [
+              82.095375,
+              22.0332639
+            ],
+            [
+              82.0950994,
+              22.0332639
+            ],
+            [
+              82.0950994,
+              22.0333815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-48",
+      "properties": {
+        "id": "plot-48",
+        "plotNumber": "48",
+        "type": "residential",
+        "status": "hold",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_48",
+        "center": [
+          82.0952372,
+          22.0332051
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0332639
+            ],
+            [
+              82.095375,
+              22.0332639
+            ],
+            [
+              82.095375,
+              22.0331463
+            ],
+            [
+              82.0950994,
+              22.0331463
+            ],
+            [
+              82.0950994,
+              22.0332639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-49",
+      "properties": {
+        "id": "plot-49",
+        "plotNumber": "49",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_49",
+        "center": [
+          82.0952372,
+          22.0330875
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0331463
+            ],
+            [
+              82.095375,
+              22.0331463
+            ],
+            [
+              82.095375,
+              22.0330287
+            ],
+            [
+              82.0950994,
+              22.0330287
+            ],
+            [
+              82.0950994,
+              22.0331463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-50",
+      "properties": {
+        "id": "plot-50",
+        "plotNumber": "50",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_50",
+        "center": [
+          82.0952372,
+          22.0329699
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0330287
+            ],
+            [
+              82.095375,
+              22.0330287
+            ],
+            [
+              82.095375,
+              22.0329111
+            ],
+            [
+              82.0950994,
+              22.0329111
+            ],
+            [
+              82.0950994,
+              22.0330287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-51",
+      "properties": {
+        "id": "plot-51",
+        "plotNumber": "51",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "West",
+        "model_object_id": "PLOT_51",
+        "center": [
+          82.0952372,
+          22.0328552
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0329111
+            ],
+            [
+              82.095375,
+              22.0329111
+            ],
+            [
+              82.095375,
+              22.0327994
+            ],
+            [
+              82.0950994,
+              22.0327994
+            ],
+            [
+              82.0950994,
+              22.0329111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-42",
+      "properties": {
+        "id": "plot-42",
+        "plotNumber": "42",
+        "type": "residential",
+        "status": "sold",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_42",
+        "center": [
+          82.0955139,
+          22.0337911
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0338499
+            ],
+            [
+              82.0956527,
+              22.0338499
+            ],
+            [
+              82.0956527,
+              22.0337323
+            ],
+            [
+              82.095375,
+              22.0337323
+            ],
+            [
+              82.095375,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-41",
+      "properties": {
+        "id": "plot-41",
+        "plotNumber": "41",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_41",
+        "center": [
+          82.0955139,
+          22.0336735
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0337323
+            ],
+            [
+              82.0956527,
+              22.0337323
+            ],
+            [
+              82.0956527,
+              22.0336147
+            ],
+            [
+              82.095375,
+              22.0336147
+            ],
+            [
+              82.095375,
+              22.0337323
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-40",
+      "properties": {
+        "id": "plot-40",
+        "plotNumber": "40",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_40",
+        "center": [
+          82.0955139,
+          22.0335569
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0336147
+            ],
+            [
+              82.0956527,
+              22.0336147
+            ],
+            [
+              82.0956527,
+              22.0334991
+            ],
+            [
+              82.095375,
+              22.0334991
+            ],
+            [
+              82.095375,
+              22.0336147
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-39",
+      "properties": {
+        "id": "plot-39",
+        "plotNumber": "39",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_39",
+        "center": [
+          82.0955139,
+          22.0334403
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0334991
+            ],
+            [
+              82.0956527,
+              22.0334991
+            ],
+            [
+              82.0956527,
+              22.0333815
+            ],
+            [
+              82.095375,
+              22.0333815
+            ],
+            [
+              82.095375,
+              22.0334991
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-38",
+      "properties": {
+        "id": "plot-38",
+        "plotNumber": "38",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_38",
+        "center": [
+          82.0955139,
+          22.0333227
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0333815
+            ],
+            [
+              82.0956527,
+              22.0333815
+            ],
+            [
+              82.0956527,
+              22.0332639
+            ],
+            [
+              82.095375,
+              22.0332639
+            ],
+            [
+              82.095375,
+              22.0333815
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-37",
+      "properties": {
+        "id": "plot-37",
+        "plotNumber": "37",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_37",
+        "center": [
+          82.0955139,
+          22.0332051
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0332639
+            ],
+            [
+              82.0956527,
+              22.0332639
+            ],
+            [
+              82.0956527,
+              22.0331463
+            ],
+            [
+              82.095375,
+              22.0331463
+            ],
+            [
+              82.095375,
+              22.0332639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-36",
+      "properties": {
+        "id": "plot-36",
+        "plotNumber": "36",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_36",
+        "center": [
+          82.0955139,
+          22.0330875
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0331463
+            ],
+            [
+              82.0956527,
+              22.0331463
+            ],
+            [
+              82.0956527,
+              22.0330287
+            ],
+            [
+              82.095375,
+              22.0330287
+            ],
+            [
+              82.095375,
+              22.0331463
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-35",
+      "properties": {
+        "id": "plot-35",
+        "plotNumber": "35",
+        "type": "residential",
+        "status": "blocked",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_35",
+        "center": [
+          82.0955139,
+          22.0329699
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0330287
+            ],
+            [
+              82.0956527,
+              22.0330287
+            ],
+            [
+              82.0956527,
+              22.0329111
+            ],
+            [
+              82.095375,
+              22.0329111
+            ],
+            [
+              82.095375,
+              22.0330287
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-34",
+      "properties": {
+        "id": "plot-34",
+        "plotNumber": "34",
+        "type": "residential",
+        "status": "available",
+        "area": 1500,
+        "price": 5500000,
+        "facing": "East",
+        "model_object_id": "PLOT_34",
+        "center": [
+          82.0955139,
+          22.0328552
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095375,
+              22.0329111
+            ],
+            [
+              82.0956527,
+              22.0329111
+            ],
+            [
+              82.0956527,
+              22.0327994
+            ],
+            [
+              82.095375,
+              22.0327994
+            ],
+            [
+              82.095375,
+              22.0329111
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-33",
+      "properties": {
+        "id": "plot-33",
+        "plotNumber": "33",
+        "type": "residential",
+        "status": "available",
+        "area": 1800,
+        "price": 6200000,
+        "facing": "West",
+        "model_object_id": "PLOT_33",
+        "center": [
+          82.0959707,
+          22.0336549
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0337108
+            ],
+            [
+              82.0961721,
+              22.0337108
+            ],
+            [
+              82.0961531,
+              22.033599
+            ],
+            [
+              82.0957884,
+              22.033599
+            ],
+            [
+              82.0957884,
+              22.0337108
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-32",
+      "properties": {
+        "id": "plot-32",
+        "plotNumber": "32",
+        "type": "residential",
+        "status": "available",
+        "area": 2000,
+        "price": 7000000,
+        "facing": "West",
+        "model_object_id": "PLOT_32",
+        "center": [
+          82.0959623,
+          22.0335432
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.033599
+            ],
+            [
+              82.0961531,
+              22.033599
+            ],
+            [
+              82.0961361,
+              22.0334873
+            ],
+            [
+              82.0957884,
+              22.0334873
+            ],
+            [
+              82.0957884,
+              22.033599
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-31",
+      "properties": {
+        "id": "plot-31",
+        "plotNumber": "31",
+        "type": "residential",
+        "status": "sold",
+        "area": 1900,
+        "price": 6600000,
+        "facing": "West",
+        "model_object_id": "PLOT_31",
+        "center": [
+          82.0959527,
+          22.0334315
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0334873
+            ],
+            [
+              82.0961361,
+              22.0334873
+            ],
+            [
+              82.096117,
+              22.0333756
+            ],
+            [
+              82.0957884,
+              22.0333756
+            ],
+            [
+              82.0957884,
+              22.0334873
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-30",
+      "properties": {
+        "id": "plot-30",
+        "plotNumber": "30",
+        "type": "residential",
+        "status": "available",
+        "area": 1800,
+        "price": 6200000,
+        "facing": "West",
+        "model_object_id": "PLOT_30",
+        "center": [
+          82.0959442,
+          22.0333197
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0333756
+            ],
+            [
+              82.096117,
+              22.0333756
+            ],
+            [
+              82.0961001,
+              22.0332639
+            ],
+            [
+              82.0957884,
+              22.0332639
+            ],
+            [
+              82.0957884,
+              22.0333756
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-29",
+      "properties": {
+        "id": "plot-29",
+        "plotNumber": "29",
+        "type": "residential",
+        "status": "hold",
+        "area": 2000,
+        "price": 7000000,
+        "facing": "West",
+        "model_object_id": "PLOT_29",
+        "center": [
+          82.0959358,
+          22.033209
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0332639
+            ],
+            [
+              82.0961001,
+              22.0332639
+            ],
+            [
+              82.0960831,
+              22.0331541
+            ],
+            [
+              82.0957884,
+              22.0331541
+            ],
+            [
+              82.0957884,
+              22.0332639
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-09",
+      "properties": {
+        "id": "plot-09",
+        "plotNumber": "9",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "West",
+        "model_object_id": "PLOT_9",
+        "center": [
+          82.0967021,
+          22.033111
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096558,
+              22.0331737
+            ],
+            [
+              82.0968463,
+              22.0331737
+            ],
+            [
+              82.0968463,
+              22.0330483
+            ],
+            [
+              82.096558,
+              22.0330483
+            ],
+            [
+              82.096558,
+              22.0331737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-08",
+      "properties": {
+        "id": "plot-08",
+        "plotNumber": "8",
+        "type": "residential",
+        "status": "sold",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "West",
+        "model_object_id": "PLOT_8",
+        "center": [
+          82.0967021,
+          22.0329856
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096558,
+              22.0330483
+            ],
+            [
+              82.0968463,
+              22.0330483
+            ],
+            [
+              82.0968463,
+              22.0329228
+            ],
+            [
+              82.096558,
+              22.0329228
+            ],
+            [
+              82.096558,
+              22.0330483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-07",
+      "properties": {
+        "id": "plot-07",
+        "plotNumber": "7",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "West",
+        "model_object_id": "PLOT_7",
+        "center": [
+          82.0967021,
+          22.0328611
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096558,
+              22.0329228
+            ],
+            [
+              82.0968463,
+              22.0329228
+            ],
+            [
+              82.0968463,
+              22.0327994
+            ],
+            [
+              82.096558,
+              22.0327994
+            ],
+            [
+              82.096558,
+              22.0329228
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-04",
+      "properties": {
+        "id": "plot-04",
+        "plotNumber": "4",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "East",
+        "model_object_id": "PLOT_4",
+        "center": [
+          82.0969926,
+          22.033111
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0968463,
+              22.0331737
+            ],
+            [
+              82.0971389,
+              22.0331737
+            ],
+            [
+              82.0971389,
+              22.0330483
+            ],
+            [
+              82.0968463,
+              22.0330483
+            ],
+            [
+              82.0968463,
+              22.0331737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-05",
+      "properties": {
+        "id": "plot-05",
+        "plotNumber": "5",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "East",
+        "model_object_id": "PLOT_5",
+        "center": [
+          82.0969926,
+          22.0329856
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0968463,
+              22.0330483
+            ],
+            [
+              82.0971389,
+              22.0330483
+            ],
+            [
+              82.0971389,
+              22.0329228
+            ],
+            [
+              82.0968463,
+              22.0329228
+            ],
+            [
+              82.0968463,
+              22.0330483
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-06",
+      "properties": {
+        "id": "plot-06",
+        "plotNumber": "6",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5800000,
+        "facing": "East",
+        "model_object_id": "PLOT_6",
+        "center": [
+          82.0969926,
+          22.0328611
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0968463,
+              22.0329228
+            ],
+            [
+              82.0971389,
+              22.0329228
+            ],
+            [
+              82.0971389,
+              22.0327994
+            ],
+            [
+              82.0968463,
+              22.0327994
+            ],
+            [
+              82.0968463,
+              22.0329228
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-03",
+      "properties": {
+        "id": "plot-03",
+        "plotNumber": "3",
+        "type": "residential",
+        "status": "available",
+        "area": 1700,
+        "price": 6000000,
+        "facing": "West",
+        "model_object_id": "PLOT_3",
+        "center": [
+          82.0974282,
+          22.0331061
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0972894,
+              22.0331678
+            ],
+            [
+              82.0975671,
+              22.0331678
+            ],
+            [
+              82.0975671,
+              22.0330444
+            ],
+            [
+              82.0972894,
+              22.0330444
+            ],
+            [
+              82.0972894,
+              22.0331678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-02",
+      "properties": {
+        "id": "plot-02",
+        "plotNumber": "2",
+        "type": "residential",
+        "status": "sold",
+        "area": 1700,
+        "price": 6000000,
+        "facing": "West",
+        "model_object_id": "PLOT_2",
+        "center": [
+          82.0974282,
+          22.0329826
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0972894,
+              22.0330444
+            ],
+            [
+              82.0975671,
+              22.0330444
+            ],
+            [
+              82.0975671,
+              22.0329209
+            ],
+            [
+              82.0972894,
+              22.0329209
+            ],
+            [
+              82.0972894,
+              22.0330444
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-01",
+      "properties": {
+        "id": "plot-01",
+        "plotNumber": "1",
+        "type": "residential",
+        "status": "available",
+        "area": 1700,
+        "price": 6000000,
+        "facing": "West",
+        "model_object_id": "PLOT_1",
+        "center": [
+          82.0974282,
+          22.0328601
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0972894,
+              22.0329209
+            ],
+            [
+              82.0975671,
+              22.0329209
+            ],
+            [
+              82.0975671,
+              22.0327994
+            ],
+            [
+              82.0972894,
+              22.0327994
+            ],
+            [
+              82.0972894,
+              22.0329209
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-28",
+      "properties": {
+        "id": "plot-28",
+        "plotNumber": "28",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1350,
+        "price": 4800000,
+        "facing": "North",
+        "model_object_id": "PLOT_28",
+        "center": [
+          82.0950061,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0949468,
+              22.0326778
+            ],
+            [
+              82.0950655,
+              22.0326778
+            ],
+            [
+              82.0950655,
+              22.032423
+            ],
+            [
+              82.0949468,
+              22.032423
+            ],
+            [
+              82.0949468,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-27",
+      "properties": {
+        "id": "plot-27",
+        "plotNumber": "27",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5850000,
+        "facing": "North",
+        "model_object_id": "PLOT_27",
+        "center": [
+          82.0951259,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950655,
+              22.0326778
+            ],
+            [
+              82.0951863,
+              22.0326778
+            ],
+            [
+              82.0951863,
+              22.032423
+            ],
+            [
+              82.0950655,
+              22.032423
+            ],
+            [
+              82.0950655,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-26",
+      "properties": {
+        "id": "plot-26",
+        "plotNumber": "26",
+        "type": "residential",
+        "status": "available",
+        "area": 1550,
+        "price": 5500000,
+        "facing": "North",
+        "model_object_id": "PLOT_26",
+        "center": [
+          82.0952457,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0951863,
+              22.0326778
+            ],
+            [
+              82.0953051,
+              22.0326778
+            ],
+            [
+              82.0953051,
+              22.032423
+            ],
+            [
+              82.0951863,
+              22.032423
+            ],
+            [
+              82.0951863,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-25",
+      "properties": {
+        "id": "plot-25",
+        "plotNumber": "25",
+        "type": "residential",
+        "status": "available",
+        "area": 1450,
+        "price": 5150000,
+        "facing": "North",
+        "model_object_id": "PLOT_25",
+        "center": [
+          82.0953655,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0953051,
+              22.0326778
+            ],
+            [
+              82.0954259,
+              22.0326778
+            ],
+            [
+              82.0954259,
+              22.032423
+            ],
+            [
+              82.0953051,
+              22.032423
+            ],
+            [
+              82.0953051,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-24",
+      "properties": {
+        "id": "plot-24",
+        "plotNumber": "24",
+        "type": "residential",
+        "status": "sold",
+        "area": 1350,
+        "price": 4800000,
+        "facing": "North",
+        "model_object_id": "PLOT_24",
+        "center": [
+          82.0954853,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0954259,
+              22.0326778
+            ],
+            [
+              82.0955446,
+              22.0326778
+            ],
+            [
+              82.0955446,
+              22.032423
+            ],
+            [
+              82.0954259,
+              22.032423
+            ],
+            [
+              82.0954259,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-23",
+      "properties": {
+        "id": "plot-23",
+        "plotNumber": "23",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5850000,
+        "facing": "North",
+        "model_object_id": "PLOT_23",
+        "center": [
+          82.095605,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0955446,
+              22.0326778
+            ],
+            [
+              82.0956655,
+              22.0326778
+            ],
+            [
+              82.0956655,
+              22.032423
+            ],
+            [
+              82.0955446,
+              22.032423
+            ],
+            [
+              82.0955446,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-22",
+      "properties": {
+        "id": "plot-22",
+        "plotNumber": "22",
+        "type": "residential",
+        "status": "available",
+        "area": 1550,
+        "price": 5500000,
+        "facing": "North",
+        "model_object_id": "PLOT_22",
+        "center": [
+          82.0957259,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0956655,
+              22.0326778
+            ],
+            [
+              82.0957863,
+              22.0326778
+            ],
+            [
+              82.0957863,
+              22.032423
+            ],
+            [
+              82.0956655,
+              22.032423
+            ],
+            [
+              82.0956655,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-21",
+      "properties": {
+        "id": "plot-21",
+        "plotNumber": "21",
+        "type": "residential",
+        "status": "available",
+        "area": 1450,
+        "price": 5150000,
+        "facing": "North",
+        "model_object_id": "PLOT_21",
+        "center": [
+          82.0958457,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957863,
+              22.0326778
+            ],
+            [
+              82.095905,
+              22.0326778
+            ],
+            [
+              82.095905,
+              22.032423
+            ],
+            [
+              82.0957863,
+              22.032423
+            ],
+            [
+              82.0957863,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-20",
+      "properties": {
+        "id": "plot-20",
+        "plotNumber": "20",
+        "type": "residential",
+        "status": "hold",
+        "area": 1350,
+        "price": 4800000,
+        "facing": "North",
+        "model_object_id": "PLOT_20",
+        "center": [
+          82.0959654,
+          22.0325504
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.095905,
+              22.0326778
+            ],
+            [
+              82.0960259,
+              22.0326778
+            ],
+            [
+              82.0960259,
+              22.032423
+            ],
+            [
+              82.095905,
+              22.032423
+            ],
+            [
+              82.095905,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-19",
+      "properties": {
+        "id": "plot-19",
+        "plotNumber": "19",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5850000,
+        "facing": "North",
+        "model_object_id": "PLOT_19",
+        "center": [
+          82.0960852,
+          22.0325602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0960259,
+              22.0326778
+            ],
+            [
+              82.0961446,
+              22.0326778
+            ],
+            [
+              82.0961446,
+              22.0324426
+            ],
+            [
+              82.0960259,
+              22.032423
+            ],
+            [
+              82.0960259,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-18",
+      "properties": {
+        "id": "plot-18",
+        "plotNumber": "18",
+        "type": "residential",
+        "status": "available",
+        "area": 1550,
+        "price": 5500000,
+        "facing": "North",
+        "model_object_id": "PLOT_18",
+        "center": [
+          82.096205,
+          22.0325602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0961446,
+              22.0326778
+            ],
+            [
+              82.0962654,
+              22.0326778
+            ],
+            [
+              82.0962654,
+              22.0324426
+            ],
+            [
+              82.0961446,
+              22.0324426
+            ],
+            [
+              82.0961446,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-17",
+      "properties": {
+        "id": "plot-17",
+        "plotNumber": "17",
+        "type": "residential",
+        "status": "available",
+        "area": 1450,
+        "price": 5150000,
+        "facing": "North",
+        "model_object_id": "PLOT_17",
+        "center": [
+          82.0963248,
+          22.0325602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0962654,
+              22.0326778
+            ],
+            [
+              82.0963841,
+              22.0326778
+            ],
+            [
+              82.0963841,
+              22.0324426
+            ],
+            [
+              82.0962654,
+              22.0324426
+            ],
+            [
+              82.0962654,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-16",
+      "properties": {
+        "id": "plot-16",
+        "plotNumber": "16",
+        "type": "residential",
+        "status": "sold",
+        "area": 1350,
+        "price": 4800000,
+        "facing": "North",
+        "model_object_id": "PLOT_16",
+        "center": [
+          82.0964446,
+          22.0325602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0963841,
+              22.0326778
+            ],
+            [
+              82.096505,
+              22.0326778
+            ],
+            [
+              82.096505,
+              22.0324426
+            ],
+            [
+              82.0963841,
+              22.0324426
+            ],
+            [
+              82.0963841,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-15",
+      "properties": {
+        "id": "plot-15",
+        "plotNumber": "15",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5850000,
+        "facing": "North",
+        "model_object_id": "PLOT_15",
+        "center": [
+          82.0965643,
+          22.0325602
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096505,
+              22.0326778
+            ],
+            [
+              82.0966237,
+              22.0326778
+            ],
+            [
+              82.0966237,
+              22.0324426
+            ],
+            [
+              82.096505,
+              22.0324426
+            ],
+            [
+              82.096505,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-14",
+      "properties": {
+        "id": "plot-14",
+        "plotNumber": "14",
+        "type": "residential",
+        "status": "available",
+        "area": 1550,
+        "price": 5500000,
+        "facing": "North",
+        "model_object_id": "PLOT_14",
+        "center": [
+          82.0966841,
+          22.0325553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0966237,
+              22.0326778
+            ],
+            [
+              82.0967445,
+              22.0326778
+            ],
+            [
+              82.0967445,
+              22.0324328
+            ],
+            [
+              82.0966237,
+              22.0324426
+            ],
+            [
+              82.0966237,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-13",
+      "properties": {
+        "id": "plot-13",
+        "plotNumber": "13",
+        "type": "residential",
+        "status": "available",
+        "area": 1450,
+        "price": 5150000,
+        "facing": "North",
+        "model_object_id": "PLOT_13",
+        "center": [
+          82.0968039,
+          22.0325553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0967445,
+              22.0326778
+            ],
+            [
+              82.0968633,
+              22.0326778
+            ],
+            [
+              82.0968633,
+              22.0324328
+            ],
+            [
+              82.0967445,
+              22.0324328
+            ],
+            [
+              82.0967445,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-12",
+      "properties": {
+        "id": "plot-12",
+        "plotNumber": "12",
+        "type": "residential",
+        "status": "reserved",
+        "area": 1350,
+        "price": 4800000,
+        "facing": "North",
+        "model_object_id": "PLOT_12",
+        "center": [
+          82.0969237,
+          22.0325553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0968633,
+              22.0326778
+            ],
+            [
+              82.0969841,
+              22.0326778
+            ],
+            [
+              82.0969841,
+              22.0324328
+            ],
+            [
+              82.0968633,
+              22.0324328
+            ],
+            [
+              82.0968633,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-11",
+      "properties": {
+        "id": "plot-11",
+        "plotNumber": "11",
+        "type": "residential",
+        "status": "available",
+        "area": 1650,
+        "price": 5850000,
+        "facing": "North",
+        "model_object_id": "PLOT_11",
+        "center": [
+          82.0970435,
+          22.0325553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0969841,
+              22.0326778
+            ],
+            [
+              82.0971028,
+              22.0326778
+            ],
+            [
+              82.0971028,
+              22.0324328
+            ],
+            [
+              82.0969841,
+              22.0324328
+            ],
+            [
+              82.0969841,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "plot-10",
+      "properties": {
+        "id": "plot-10",
+        "plotNumber": "10",
+        "type": "residential",
+        "status": "hold",
+        "area": 1550,
+        "price": 5500000,
+        "facing": "North",
+        "model_object_id": "PLOT_10",
+        "center": [
+          82.0972003,
+          22.0325553
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0971028,
+              22.0326778
+            ],
+            [
+              82.0972979,
+              22.0326778
+            ],
+            [
+              82.0972979,
+              22.0324328
+            ],
+            [
+              82.0971028,
+              22.0324328
+            ],
+            [
+              82.0971028,
+              22.0326778
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-01",
+      "properties": {
+        "id": "lig-01",
+        "plotNumber": "LIG-1",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "South",
+        "model_object_id": "LIG_1",
+        "center": [
+          82.0957322,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0956527,
+              22.0340694
+            ],
+            [
+              82.0958117,
+              22.0340694
+            ],
+            [
+              82.0958117,
+              22.0339322
+            ],
+            [
+              82.0956527,
+              22.0339322
+            ],
+            [
+              82.0956527,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-02",
+      "properties": {
+        "id": "lig-02",
+        "plotNumber": "LIG-2",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "West",
+        "model_object_id": "LIG_2",
+        "center": [
+          82.0958605,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0338499
+            ],
+            [
+              82.0959326,
+              22.0338499
+            ],
+            [
+              82.0959326,
+              22.0337108
+            ],
+            [
+              82.0957884,
+              22.0337108
+            ],
+            [
+              82.0957884,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-03",
+      "properties": {
+        "id": "lig-03",
+        "plotNumber": "LIG-3",
+        "type": "lig",
+        "status": "reserved",
+        "area": 850,
+        "price": 2800000,
+        "facing": "North",
+        "model_object_id": "LIG_3",
+        "center": [
+          82.0960047,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0959326,
+              22.0338499
+            ],
+            [
+              82.0960767,
+              22.0338499
+            ],
+            [
+              82.0960767,
+              22.0337108
+            ],
+            [
+              82.0959326,
+              22.0337108
+            ],
+            [
+              82.0959326,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-04",
+      "properties": {
+        "id": "lig-04",
+        "plotNumber": "LIG-4",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "East",
+        "model_object_id": "LIG_4",
+        "center": [
+          82.0961552,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0960767,
+              22.0338499
+            ],
+            [
+              82.0962336,
+              22.0338499
+            ],
+            [
+              82.0962336,
+              22.0337108
+            ],
+            [
+              82.0960767,
+              22.0337108
+            ],
+            [
+              82.0960767,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-01",
+      "properties": {
+        "id": "ews-01",
+        "plotNumber": "EWS-1",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_1",
+        "center": [
+          82.0958499,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0958117,
+              22.0340694
+            ],
+            [
+              82.0958881,
+              22.0340694
+            ],
+            [
+              82.0958881,
+              22.0339322
+            ],
+            [
+              82.0958117,
+              22.0339322
+            ],
+            [
+              82.0958117,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-02",
+      "properties": {
+        "id": "ews-02",
+        "plotNumber": "EWS-2",
+        "type": "ews",
+        "status": "sold",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_2",
+        "center": [
+          82.0959262,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0958881,
+              22.0340694
+            ],
+            [
+              82.0959644,
+              22.0340694
+            ],
+            [
+              82.0959644,
+              22.0339322
+            ],
+            [
+              82.0958881,
+              22.0339322
+            ],
+            [
+              82.0958881,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-03",
+      "properties": {
+        "id": "ews-03",
+        "plotNumber": "EWS-3",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_3",
+        "center": [
+          82.0960025,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0959644,
+              22.0340694
+            ],
+            [
+              82.0960407,
+              22.0340694
+            ],
+            [
+              82.0960407,
+              22.0339322
+            ],
+            [
+              82.0959644,
+              22.0339322
+            ],
+            [
+              82.0959644,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-04",
+      "properties": {
+        "id": "ews-04",
+        "plotNumber": "EWS-4",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_4",
+        "center": [
+          82.0960789,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0960407,
+              22.0340694
+            ],
+            [
+              82.096117,
+              22.0340694
+            ],
+            [
+              82.096117,
+              22.0339322
+            ],
+            [
+              82.0960407,
+              22.0339322
+            ],
+            [
+              82.0960407,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-05",
+      "properties": {
+        "id": "ews-05",
+        "plotNumber": "EWS-5",
+        "type": "ews",
+        "status": "hold",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_5",
+        "center": [
+          82.0961552,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096117,
+              22.0340694
+            ],
+            [
+              82.0961933,
+              22.0340694
+            ],
+            [
+              82.0961933,
+              22.0339322
+            ],
+            [
+              82.096117,
+              22.0339322
+            ],
+            [
+              82.096117,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-06",
+      "properties": {
+        "id": "ews-06",
+        "plotNumber": "EWS-6",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_6",
+        "center": [
+          82.0962315,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0961933,
+              22.0340694
+            ],
+            [
+              82.0962697,
+              22.0340694
+            ],
+            [
+              82.0962697,
+              22.0339322
+            ],
+            [
+              82.0961933,
+              22.0339322
+            ],
+            [
+              82.0961933,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

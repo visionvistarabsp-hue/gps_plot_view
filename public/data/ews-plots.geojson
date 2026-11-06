@@ -1,0 +1,275 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "ews-01",
+      "properties": {
+        "id": "ews-01",
+        "plotNumber": "EWS-1",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_1",
+        "center": [
+          82.0958499,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0958117,
+              22.0340694
+            ],
+            [
+              82.0958881,
+              22.0340694
+            ],
+            [
+              82.0958881,
+              22.0339322
+            ],
+            [
+              82.0958117,
+              22.0339322
+            ],
+            [
+              82.0958117,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-02",
+      "properties": {
+        "id": "ews-02",
+        "plotNumber": "EWS-2",
+        "type": "ews",
+        "status": "sold",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_2",
+        "center": [
+          82.0959262,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0958881,
+              22.0340694
+            ],
+            [
+              82.0959644,
+              22.0340694
+            ],
+            [
+              82.0959644,
+              22.0339322
+            ],
+            [
+              82.0958881,
+              22.0339322
+            ],
+            [
+              82.0958881,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-03",
+      "properties": {
+        "id": "ews-03",
+        "plotNumber": "EWS-3",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_3",
+        "center": [
+          82.0960025,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0959644,
+              22.0340694
+            ],
+            [
+              82.0960407,
+              22.0340694
+            ],
+            [
+              82.0960407,
+              22.0339322
+            ],
+            [
+              82.0959644,
+              22.0339322
+            ],
+            [
+              82.0959644,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-04",
+      "properties": {
+        "id": "ews-04",
+        "plotNumber": "EWS-4",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_4",
+        "center": [
+          82.0960789,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0960407,
+              22.0340694
+            ],
+            [
+              82.096117,
+              22.0340694
+            ],
+            [
+              82.096117,
+              22.0339322
+            ],
+            [
+              82.0960407,
+              22.0339322
+            ],
+            [
+              82.0960407,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-05",
+      "properties": {
+        "id": "ews-05",
+        "plotNumber": "EWS-5",
+        "type": "ews",
+        "status": "hold",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_5",
+        "center": [
+          82.0961552,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.096117,
+              22.0340694
+            ],
+            [
+              82.0961933,
+              22.0340694
+            ],
+            [
+              82.0961933,
+              22.0339322
+            ],
+            [
+              82.096117,
+              22.0339322
+            ],
+            [
+              82.096117,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "ews-06",
+      "properties": {
+        "id": "ews-06",
+        "plotNumber": "EWS-6",
+        "type": "ews",
+        "status": "available",
+        "area": 450,
+        "price": 1400000,
+        "facing": "South",
+        "model_object_id": "EWS_6",
+        "center": [
+          82.0962315,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0961933,
+              22.0340694
+            ],
+            [
+              82.0962697,
+              22.0340694
+            ],
+            [
+              82.0962697,
+              22.0339322
+            ],
+            [
+              82.0961933,
+              22.0339322
+            ],
+            [
+              82.0961933,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

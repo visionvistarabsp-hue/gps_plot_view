@@ -1,0 +1,264 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "road-20ft-north",
+      "properties": {
+        "id": "road-20ft-north",
+        "name": "20'0\" WIDE ROAD",
+        "width_ft": 20,
+        "road_type": "internal_access"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0949468,
+              22.0339322
+            ],
+            [
+              82.0962697,
+              22.0339322
+            ],
+            [
+              82.0962697,
+              22.0338499
+            ],
+            [
+              82.0949468,
+              22.0338499
+            ],
+            [
+              82.0949468,
+              22.0339322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-30ft-west",
+      "properties": {
+        "id": "road-30ft-west",
+        "name": "30'0\" WIDE ROAD (West)",
+        "width_ft": 30,
+        "road_type": "internal_arterial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0949468,
+              22.0339205
+            ],
+            [
+              82.0950994,
+              22.0339205
+            ],
+            [
+              82.0950994,
+              22.0326778
+            ],
+            [
+              82.0949468,
+              22.0326778
+            ],
+            [
+              82.0949468,
+              22.0339205
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-30ft-mid",
+      "properties": {
+        "id": "road-30ft-mid",
+        "name": "30'0\" WIDE ROAD (Mid-West)",
+        "width_ft": 30,
+        "road_type": "internal_arterial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0956527,
+              22.0338499
+            ],
+            [
+              82.0957884,
+              22.0338499
+            ],
+            [
+              82.0957884,
+              22.0327994
+            ],
+            [
+              82.0956527,
+              22.0327994
+            ],
+            [
+              82.0956527,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-30ft-mid-east",
+      "properties": {
+        "id": "road-30ft-mid-east",
+        "name": "30'0\" WIDE ROAD (Mid-East)",
+        "width_ft": 30,
+        "road_type": "internal_arterial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0964011,
+              22.0331737
+            ],
+            [
+              82.096558,
+              22.0331737
+            ],
+            [
+              82.096558,
+              22.0327994
+            ],
+            [
+              82.0964011,
+              22.0327994
+            ],
+            [
+              82.0964011,
+              22.0331737
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-30ft-east",
+      "properties": {
+        "id": "road-30ft-east",
+        "name": "30'0\" WIDE ROAD (East)",
+        "width_ft": 30,
+        "road_type": "internal_arterial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0971389,
+              22.0331678
+            ],
+            [
+              82.0972894,
+              22.0331678
+            ],
+            [
+              82.0972894,
+              22.0327994
+            ],
+            [
+              82.0971389,
+              22.0327994
+            ],
+            [
+              82.0971389,
+              22.0331678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-30ft-south",
+      "properties": {
+        "id": "road-30ft-south",
+        "name": "30'0\" WIDE ROAD (South Corridor)",
+        "width_ft": 30,
+        "road_type": "internal_arterial"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0949468,
+              22.0327994
+            ],
+            [
+              82.0978109,
+              22.0327994
+            ],
+            [
+              82.0978109,
+              22.0326778
+            ],
+            [
+              82.0949468,
+              22.0326778
+            ],
+            [
+              82.0949468,
+              22.0327994
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "road-40ft-east",
+      "properties": {
+        "id": "road-40ft-east",
+        "name": "40'0\" WIDE ROAD (LEFT BY OWNER)",
+        "width_ft": 40,
+        "road_type": "main_access"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0978109,
+              22.0331482
+            ],
+            [
+              82.0979911,
+              22.0331482
+            ],
+            [
+              82.0979911,
+              22.0323642
+            ],
+            [
+              82.0978109,
+              22.0323642
+            ],
+            [
+              82.0978109,
+              22.0331482
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

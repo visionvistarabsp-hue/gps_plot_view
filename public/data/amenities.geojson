@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "amenity-garden-top",
+      "properties": {
+        "id": "amenity-garden-top",
+        "name": "North Garden",
+        "type": "garden",
+        "category": "Garden",
+        "area": 3200,
+        "description": "Lush landscaped green garden at north entry",
+        "model_object_id": "AMENITY_GARDEN_TOP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0950994,
+              22.0339322
+            ],
+            [
+              82.0956527,
+              22.0340694
+            ],
+            [
+              82.0956527,
+              22.0339322
+            ],
+            [
+              82.0950994,
+              22.0339322
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amenity-garden-corner",
+      "properties": {
+        "id": "amenity-garden-corner",
+        "name": "South-West Park",
+        "type": "garden",
+        "category": "Garden",
+        "area": 4500,
+        "description": "Spacious community park and recreation lawn",
+        "model_object_id": "AMENITY_GARDEN_CORNER"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0946415,
+              22.0328366
+            ],
+            [
+              82.0949468,
+              22.0328366
+            ],
+            [
+              82.0949468,
+              22.032423
+            ],
+            [
+              82.0946415,
+              22.0326092
+            ],
+            [
+              82.0946415,
+              22.0328366
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amenity-garden-central",
+      "properties": {
+        "id": "amenity-garden-central",
+        "name": "Central Community Garden",
+        "type": "garden",
+        "category": "Garden",
+        "area": 8900,
+        "description": "Main central green zone with walking tracks & amphitheater",
+        "model_object_id": "AMENITY_GARDEN_CENTRAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0331541
+            ],
+            [
+              82.0960831,
+              22.0331541
+            ],
+            [
+              82.0964011,
+              22.0331737
+            ],
+            [
+              82.0964011,
+              22.0327994
+            ],
+            [
+              82.0957884,
+              22.0327994
+            ],
+            [
+              82.0957884,
+              22.0331541
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amenity-clubhouse",
+      "properties": {
+        "id": "amenity-clubhouse",
+        "name": "Club House",
+        "type": "clubhouse",
+        "category": "Club House",
+        "area": 5400,
+        "description": "Multi-tier Clubhouse with swimming pool, gym, lounge and indoor games",
+        "model_object_id": "AMENITY_CLUBHOUSE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0975671,
+              22.0331678
+            ],
+            [
+              82.0978109,
+              22.0331482
+            ],
+            [
+              82.0978109,
+              22.0327994
+            ],
+            [
+              82.0975671,
+              22.0327994
+            ],
+            [
+              82.0975671,
+              22.0331678
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amenity-transformer-top",
+      "properties": {
+        "id": "amenity-transformer-top",
+        "name": "Power Station & Transformer (North)",
+        "type": "transformer",
+        "category": "Transformer",
+        "area": 600,
+        "description": "Dedicated power sub-station and distribution transformer",
+        "model_object_id": "AMENITY_TRANSFORMER_TOP"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0974399,
+              22.0340792
+            ],
+            [
+              82.0975883,
+              22.0340792
+            ],
+            [
+              82.0975883,
+              22.0339616
+            ],
+            [
+              82.0974399,
+              22.0339616
+            ],
+            [
+              82.0974399,
+              22.0340792
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "amenity-transformer-central",
+      "properties": {
+        "id": "amenity-transformer-central",
+        "name": "Distribution Transformer [T]",
+        "type": "transformer",
+        "category": "Transformer",
+        "area": 250,
+        "description": "Central block utility transformer unit",
+        "model_object_id": "AMENITY_TRANSFORMER_CENTRAL"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0958181,
+              22.0331482
+            ],
+            [
+              82.0959029,
+              22.0331482
+            ],
+            [
+              82.0959029,
+              22.0330894
+            ],
+            [
+              82.0958181,
+              22.0330894
+            ],
+            [
+              82.0958181,
+              22.0331482
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "lig-01",
+      "properties": {
+        "id": "lig-01",
+        "plotNumber": "LIG-1",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "South",
+        "model_object_id": "LIG_1",
+        "center": [
+          82.0957322,
+          22.0340008
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0956527,
+              22.0340694
+            ],
+            [
+              82.0958117,
+              22.0340694
+            ],
+            [
+              82.0958117,
+              22.0339322
+            ],
+            [
+              82.0956527,
+              22.0339322
+            ],
+            [
+              82.0956527,
+              22.0340694
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-02",
+      "properties": {
+        "id": "lig-02",
+        "plotNumber": "LIG-2",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "West",
+        "model_object_id": "LIG_2",
+        "center": [
+          82.0958605,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0957884,
+              22.0338499
+            ],
+            [
+              82.0959326,
+              22.0338499
+            ],
+            [
+              82.0959326,
+              22.0337108
+            ],
+            [
+              82.0957884,
+              22.0337108
+            ],
+            [
+              82.0957884,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-03",
+      "properties": {
+        "id": "lig-03",
+        "plotNumber": "LIG-3",
+        "type": "lig",
+        "status": "reserved",
+        "area": 850,
+        "price": 2800000,
+        "facing": "North",
+        "model_object_id": "LIG_3",
+        "center": [
+          82.0960047,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0959326,
+              22.0338499
+            ],
+            [
+              82.0960767,
+              22.0338499
+            ],
+            [
+              82.0960767,
+              22.0337108
+            ],
+            [
+              82.0959326,
+              22.0337108
+            ],
+            [
+              82.0959326,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "lig-04",
+      "properties": {
+        "id": "lig-04",
+        "plotNumber": "LIG-4",
+        "type": "lig",
+        "status": "available",
+        "area": 850,
+        "price": 2800000,
+        "facing": "East",
+        "model_object_id": "LIG_4",
+        "center": [
+          82.0961552,
+          22.0337803
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              82.0960767,
+              22.0338499
+            ],
+            [
+              82.0962336,
+              22.0338499
+            ],
+            [
+              82.0962336,
+              22.0337108
+            ],
+            [
+              82.0960767,
+              22.0337108
+            ],
+            [
+              82.0960767,
+              22.0338499
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

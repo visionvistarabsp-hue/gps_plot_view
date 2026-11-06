@@ -1,0 +1,104 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+enum PlotStatus {
+  available
+  reserved
+  hold
+  sold
+  blocked
+}
+
+enum PropertyType {
+  residential
+  lig
+  ews
+}
+
+model Project {
+  id              String      @id @default(uuid())
+  code            String      @unique
+  name            String
+  location        String?
+  totalPlots      Int         @default(69)
+  description     String?
+  geojsonPath     String?     @default("/data/all-plots.geojson")
+  createdAt       DateTime    @default(now())
+  updatedAt       DateTime    @updatedAt
+  properties      Property[]
+}
+
+model Property {
+  id              String          @id @default(uuid())
+  projectId       String?
+  project         Project?        @relation(fields: [projectId], references: [id], onDelete: Cascade)
+  propertyNumber  String          @unique // e.g. "42", "LIG-1", "EWS-3"
+  propertyType    PropertyType    @default(residential)
+  status          PlotStatus      @default(available)
+  areaSqFt        Float?
+  facing          String?         // "North", "South", "East", "West"
+  price           Float?
+  pricePerSqFt    Float?
+  geojsonId       String?         // e.g. "plot-42", "lig-01", "ews-03"
+  modelObjectId   String?         // e.g. "PLOT_42" for future Three.js / Blender 3D integration
+  notes           String?
+  createdAt       DateTime        @default(now())
+  updatedAt       DateTime        @updatedAt
+  statusHistories PlotStatusHistory[]
+  bookings        SiteVisitBooking[]
+  inquiries       Inquiry[]
+}
+
+model PlotStatusHistory {
+  id          String      @id @default(uuid())
+  propertyId  String
+  property    Property    @relation(fields: [propertyId], references: [id], onDelete: Cascade)
+  oldStatus   PlotStatus
+  newStatus   PlotStatus
+  changedBy   String?
+  note        String?
+  createdAt   DateTime    @default(now())
+}
+
+model SiteVisitBooking {
+  id          String      @id @default(uuid())
+  propertyId  String?
+  property    Property?   @relation(fields: [propertyId], references: [id])
+  plotNumber  String?
+  clientName  String
+  clientEmail String
+  clientPhone String
+  visitDate   DateTime
+  notes       String?
+  status      String      @default("PENDING") // PENDING, CONFIRMED, COMPLETED, CANCELLED
+  createdAt   DateTime    @default(now())
+  updatedAt   DateTime    @updatedAt
+}
+
+model Inquiry {
+  id          String      @id @default(uuid())
+  propertyId  String?
+  property    Property?   @relation(fields: [propertyId], references: [id])
+  plotNumber  String?
+  name        String
+  email       String
+  phone       String
+  message     String?
+  status      String      @default("NEW") // NEW, CONTACTED, CLOSED
+  createdAt   DateTime    @default(now())
+}
+
+model AdminUser {
+  id          String      @id @default(uuid())
+  auth0Id     String?     @unique
+  email       String      @unique
+  name        String?
+  role        String      @default("ADMIN") // ADMIN, SALES, AGENT
+  createdAt   DateTime    @default(now())
+}
