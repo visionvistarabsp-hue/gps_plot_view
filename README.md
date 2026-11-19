@@ -2,7 +2,7 @@
 
 A state-of-the-art interactive real-estate property explorer built with **Next.js**, **React**, **TypeScript**, **MapLibre GL JS**, **Tailwind CSS**, and **Neon PostgreSQL**.
 
-Digitized from an authoritative architectural site layout drawing with **zero geometric distortion, accurate plot shapes, real-time availability status, satellite layer toggling, calibration mode, and future 3D Blender/Three.js architecture**.
+Digitized from an authoritative architectural site layout drawing with **zero geometric distortion, accurate plot shapes, real-time availability status, interactive street map, calibration mode, and future 3D Blender/Three.js architecture**.
 
 ---
 
@@ -16,7 +16,7 @@ Digitized from an authoritative architectural site layout drawing with **zero ge
    - **Project Boundary**: Complete master survey perimeter.
 
 2. **MapLibre GL Map Engine**:
-   - High-resolution Satellite Imagery toggle (Esri World Imagery / OpenStreetMap / Dark Matter).
+   - OpenStreetMap street map with fast GPU-accelerated GeoJSON vector layers.
    - Fast GPU-accelerated rendering with GeoJSON vector sources.
    - Interactive plot hover highlight & dynamic tooltip with unit specs.
    - Plot selection with focus camera fly-to animation.
@@ -33,7 +33,7 @@ Digitized from an authoritative architectural site layout drawing with **zero ge
    - Deep linking support (e.g. `?plot=42` selects Plot 42 on load).
 
 5. **Calibration Studio (`/calibration`)**:
-   - Overlay the original architect PNG with live satellite imagery.
+   - Overlay the original architect PNG with the street map.
    - Control opacity, X/Y translation, scale multiplier, rotation angle, and layer visibility.
 
 6. **Admin Dashboard (`/admin`)**:
@@ -70,8 +70,8 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 | Route | Purpose | Description |
 | :--- | :--- | :--- |
-| **`/`** | **Public Explorer** | Interactive satellite masterplan explorer with search, filters & details panel |
-| **`/calibration`** | **Calibration Studio** | Developer tool for overlaying & aligning reference drawings with satellite map |
+| **`/`** | **Public Explorer** | Interactive street-map masterplan explorer with search, filters & details panel |
+| **`/calibration`** | **Calibration Studio** | Developer tool for overlaying & aligning reference drawings with the street map |
 | **`/admin`** | **Admin Control Center** | Manage plot statuses, pricing, inventory table, and site visit bookings |
 | **`/api/properties`** | **Properties API** | REST API for fetching and updating plot statuses & pricing |
 | **`/api/bookings`** | **Bookings API** | REST API for scheduling customer site visits |

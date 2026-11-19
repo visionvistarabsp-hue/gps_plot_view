@@ -19,7 +19,7 @@ export const CalibrationControls: React.FC<CalibrationControlsProps> = ({
   isSaved
 }) => {
   return (
-    <div className="fixed top-4 left-4 z-40 max-w-sm w-full bg-slate-900/95 backdrop-blur-xl border border-slate-700/90 rounded-2xl shadow-2xl p-5 text-xs text-slate-200 overflow-y-auto max-h-[92vh]">
+    <div className="fixed top-[calc(env(safe-area-inset-top)+0.5rem)] left-2 right-2 sm:top-4 sm:left-4 sm:right-auto z-40 max-w-none sm:max-w-sm w-auto sm:w-full bg-slate-900/95 backdrop-blur-xl border border-slate-700/90 rounded-2xl shadow-2xl p-4 sm:p-5 text-xs text-slate-200 overflow-y-auto overscroll-contain max-h-[calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-1rem)] sm:max-h-[92vh]">
       {/* Header */}
       <div className="flex items-center justify-between pb-3 border-b border-slate-800">
         <div className="flex items-center gap-2">
@@ -41,7 +41,7 @@ export const CalibrationControls: React.FC<CalibrationControlsProps> = ({
       </div>
 
       <p className="mt-2 text-[11px] text-slate-400 leading-relaxed">
-        Use this tool to precisely overlay and calibrate the original architect masterplan drawing with real-world satellite imagery.
+        Use this tool to precisely overlay and calibrate the original architect masterplan drawing with the street map.
       </p>
 
       {/* Main Overlay Sliders */}

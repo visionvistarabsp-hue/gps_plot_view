@@ -2,10 +2,10 @@
   - main [ref=e3]:
     - generic:
       - generic [ref=e4]:
-        - generic [ref=e5]: DHG
+        - generic [ref=e5]: Vaikhunt Residency
         - generic [ref=e7]:
           - heading [level=1] [ref=e9]:
-            - text: Dheeraa Haffa Greens
+            - text: Vaikhunt Residency
             - generic [ref=e10]: 69 Plots
           - paragraph [ref=e13]: Chhattisgarh, India
       - generic [ref=e17]:
@@ -34,7 +34,7 @@
     - generic [ref=e128]:
       - generic [ref=e129]:
         - generic [ref=e130]:
-          - button "Dheeraa Haffa Greens" [ref=e135] [cursor=pointer]
+          - button "Vaikhunt Residency" [ref=e135] [cursor=pointer]
           - button "Voice band karein" [ref=e138] [cursor=pointer]
         - generic [ref=e143]: Aap pahunch gaye hain.
       - button "End navigation" [ref=e145] [cursor=pointer]

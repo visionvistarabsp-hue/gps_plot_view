@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState, useCallback } from 'react';
 import type { Map as MapLibreMap, Popup, NavigationControl, Marker } from 'maplibre-gl';
 import { PropertyData, CalibrationParams, FilterOptions } from '@/types/property';
-import { MAP_CONFIG, SATELLITE_PROVIDERS, STATUS_COLORS, NAV_COLORS, isNightMode, NIGHT_RASTER, DAY_RASTER } from '@/config/map-config';
+import { MAP_CONFIG, MAP_TILE_SOURCE, STATUS_COLORS, NAV_COLORS, isNightMode, NIGHT_RASTER, DAY_RASTER } from '@/config/map-config';
 import type { RouteGeoJSON } from '@/hooks/useGeoRoute';
 import type { RouteSplit } from '@/hooks/useNavigation';
 
@@ -9,7 +9,6 @@ interface PropertyMapProps {
   properties: PropertyData[];
   selectedProperty: PropertyData | null;
   onSelectProperty: (property: PropertyData | null) => void;
-  baseLayer: 'esri' | 'osm' | 'cartoDark';
   filters?: FilterOptions;
   calibrationParams?: CalibrationParams;
   onMapLoaded?: () => void;
@@ -25,7 +24,6 @@ export const PropertyMap: React.FC<PropertyMapProps> = ({
   properties,
   selectedProperty,
   onSelectProperty,
-  baseLayer,
   filters,
   calibrationParams,
   onMapLoaded,
@@ -100,8 +98,6 @@ export const PropertyMap: React.FC<PropertyMapProps> = ({
 
       if (isCancelled || !mapContainerRef.current) return;
 
-      const provider = SATELLITE_PROVIDERS[baseLayer] || SATELLITE_PROVIDERS.esri;
-
       const map = new maplibregl.Map({
         container: mapContainerRef.current,
         style: {
@@ -109,10 +105,10 @@ export const PropertyMap: React.FC<PropertyMapProps> = ({
           sources: {
             'base-raster': {
               type: 'raster',
-              tiles: provider.tiles,
+              tiles: MAP_TILE_SOURCE.tiles,
               tileSize: 256,
-              attribution: provider.attribution,
-              maxzoom: provider.maxzoom || 20
+              attribution: MAP_TILE_SOURCE.attribution,
+              maxzoom: MAP_TILE_SOURCE.maxzoom
             }
           },
           layers: [
@@ -622,19 +618,6 @@ export const PropertyMap: React.FC<PropertyMapProps> = ({
       }
     };
   }, []);
-
-  // Update Base Raster when provider changes
-  useEffect(() => {
-    const map = mapRef.current;
-    if (!map || !isLoaded) return;
-
-    const provider = SATELLITE_PROVIDERS[baseLayer] || SATELLITE_PROVIDERS.esri;
-    const source = map.getSource('base-raster') as any;
-
-    if (source && source.setTiles) {
-      source.setTiles(provider.tiles);
-    }
-  }, [baseLayer, isLoaded]);
 
   // Sync Selected Plot highlight in MapLibre
   useEffect(() => {

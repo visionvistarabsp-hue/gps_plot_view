@@ -209,7 +209,7 @@ export default function HomePage() {
   };
 
   return (
-    <main className="relative w-screen h-screen overflow-hidden bg-slate-950 font-sans">
+    <main className="relative w-screen h-dvh overflow-hidden bg-slate-950 font-sans">
        {/* Top Header Bar */}
       <Header
         onToggleFilters={() => setIsFilterOpen(!isFilterOpen)}
@@ -226,7 +226,7 @@ export default function HomePage() {
       />
 
       {/* Floating Search Bar (Top Right) */}
-      <div className="absolute top-20 right-4 sm:right-auto sm:left-1/2 sm:-translate-x-1/2 z-20 w-auto">
+      <div className="absolute top-[calc(env(safe-area-inset-top)+7.25rem)] left-3 right-3 z-20 flex justify-center sm:top-[calc(env(safe-area-inset-top)+8.5rem)] lg:top-[5.5rem] lg:left-1/2 lg:right-auto lg:w-full lg:max-w-sm lg:-translate-x-1/2">
         <SearchBox
           properties={properties}
           onSelectProperty={setSelectedProperty}
@@ -261,7 +261,6 @@ export default function HomePage() {
           properties={properties}
           selectedProperty={selectedProperty}
           onSelectProperty={setSelectedProperty}
-          baseLayer="osm"
           filters={filters}
           fitBoundsTrigger={fitBoundsTrigger}
           userLocation={userLocation as [number, number] | null}

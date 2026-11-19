@@ -36,36 +36,10 @@ export const STATUS_COLORS = {
   }
 };
 
-export const SATELLITE_PROVIDERS = {
-  esri: {
-    name: 'Satellite (High-Res)',
-    // Google Maps satellite tiles — best India coverage, supports zoom 20+ in cities
-    // Multiple subdomains (mt0-mt3) for parallel tile loading = faster map
-    tiles: [
-      'https://mt0.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',
-      'https://mt1.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',
-      'https://mt2.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}',
-      'https://mt3.google.com/vt/lyrs=s&hl=en&x={x}&y={y}&z={z}'
-    ],
-    attribution: 'Map data &copy; Google',
-    maxzoom: 20
-  },
-  osm: {
-    name: 'OpenStreetMap',
-    tiles: [
-      'https://tile.openstreetmap.org/{z}/{x}/{y}.png'
-    ],
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-    maxzoom: 19
-  },
-  cartoDark: {
-    name: 'Dark Map',
-    tiles: [
-      'https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png'
-    ],
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
-    maxzoom: 19
-  }
+export const MAP_TILE_SOURCE = {
+  tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+  attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+  maxzoom: 19
 };
 
 export const MAP_CONFIG = {
@@ -75,7 +49,6 @@ export const MAP_CONFIG = {
   initialBearing: 0,
   minZoom: 13,
   maxZoom: 20,
-  defaultBaseLayer: 'esri' as keyof typeof SATELLITE_PROVIDERS,
   referenceImage: '/reference/original-layout.png',
   
   // Coordinates mapping bounds for the reference image overlay

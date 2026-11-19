@@ -2,10 +2,10 @@
   - main [ref=e3]:
     - generic:
       - generic [ref=e4]:
-        - generic [ref=e5]: DHG
+        - generic [ref=e5]: Vaikhunt Residency
         - generic [ref=e7]:
           - heading [level=1] [ref=e9]:
-            - text: Dheeraa Haffa Greens
+            - text: Vaikhunt Residency
             - generic [ref=e10]: 69 Plots
           - paragraph [ref=e13]: Chhattisgarh, India
       - generic [ref=e17]:

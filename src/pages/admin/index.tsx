@@ -163,7 +163,7 @@ export default function AdminPage() {
   // Login view if not authenticated
   if (!isAuthenticated) {
     return (
-      <div className="min-h-screen bg-slate-950 text-slate-100 flex items-center justify-center p-4">
+      <div className="min-h-dvh overflow-y-auto bg-slate-950 text-slate-100 flex items-center justify-center p-4">
         <Head>
           <title>Admin Portal Login | Greenfield Meadows</title>
         </Head>
@@ -194,7 +194,7 @@ export default function AdminPage() {
                 value={authEmail}
                 onChange={e => setAuthEmail(e.target.value)}
                 placeholder="admin@greenfieldmeadows.com"
-                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-emerald-500"
+                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-sm text-white focus:outline-none focus:border-emerald-500"
               />
             </div>
 
@@ -205,7 +205,7 @@ export default function AdminPage() {
                 value={authPassword}
                 onChange={e => setAuthPassword(e.target.value)}
                 placeholder="••••••••••••"
-                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-white focus:outline-none focus:border-emerald-500"
+                className="w-full p-2.5 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-sm text-white focus:outline-none focus:border-emerald-500"
               />
             </div>
 
@@ -229,14 +229,14 @@ export default function AdminPage() {
   }
 
   return (
-    <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans">
+    <div className="h-dvh overflow-y-auto overscroll-contain bg-slate-950 text-slate-100 flex flex-col font-sans">
       <Head>
         <title>Admin Control Center | Greenfield Meadows</title>
       </Head>
 
       {/* Top Navigation */}
-      <header className="bg-slate-900/90 backdrop-blur-md border-b border-slate-800 px-6 py-4 flex items-center justify-between sticky top-0 z-30">
-        <div className="flex items-center gap-4">
+      <header className="bg-slate-900/95 backdrop-blur-md border-b border-slate-800 px-3 py-3 sm:px-6 sm:py-4 flex flex-wrap items-center justify-between gap-3 sticky top-0 z-30">
+        <div className="flex min-w-0 items-center gap-2 sm:gap-4">
           <Link
             href="/"
             className="p-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 transition-colors"
@@ -245,7 +245,7 @@ export default function AdminPage() {
             <ArrowLeft className="w-4 h-4" />
           </Link>
           <div>
-            <h1 className="text-base font-bold text-white flex items-center gap-2">
+            <h1 className="text-sm sm:text-base font-bold text-white flex items-center gap-2">
               <ShieldCheck className="w-5 h-5 text-emerald-400" />
               <span>Real-Estate Inventory Manager</span>
             </h1>
@@ -255,11 +255,11 @@ export default function AdminPage() {
           </div>
         </div>
 
-        <div className="flex items-center gap-3">
+        <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
           <Link
             href="/"
             target="_blank"
-            className="flex items-center gap-1.5 px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl text-xs font-semibold transition-colors"
+            className="flex min-h-10 items-center gap-1.5 px-3 py-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 rounded-xl text-xs font-semibold transition-colors"
           >
             <span>Live Map</span>
             <ExternalLink className="w-3.5 h-3.5 text-emerald-400" />
@@ -275,7 +275,7 @@ export default function AdminPage() {
       </header>
 
       {/* Main Container */}
-      <main className="flex-1 p-6 max-w-7xl w-full mx-auto space-y-6">
+      <main className="flex-1 p-3 sm:p-6 max-w-7xl w-full mx-auto space-y-4 sm:space-y-6">
         {/* Toast Alert */}
         {saveSuccessMessage && (
           <div className="p-3.5 bg-emerald-500/15 border border-emerald-500/40 text-emerald-300 rounded-xl text-xs font-semibold flex items-center gap-2 animate-in fade-in duration-200">
@@ -309,10 +309,10 @@ export default function AdminPage() {
         </div>
 
         {/* Tabs */}
-        <div className="flex items-center gap-2 border-b border-slate-800 pb-2">
+        <div className="flex items-center gap-2 border-b border-slate-800 pb-2 overflow-x-auto">
           <button
             onClick={() => setActiveTab('inventory')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`shrink-0 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
               activeTab === 'inventory'
                 ? 'bg-emerald-500 text-slate-950'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
@@ -322,7 +322,7 @@ export default function AdminPage() {
           </button>
           <button
             onClick={() => setActiveTab('bookings')}
-            className={`px-4 py-2 rounded-xl text-xs font-bold transition-all ${
+            className={`shrink-0 px-4 py-2 rounded-xl text-xs font-bold transition-all ${
               activeTab === 'bookings'
                 ? 'bg-emerald-500 text-slate-950'
                 : 'text-slate-400 hover:text-white hover:bg-slate-900'
@@ -343,7 +343,7 @@ export default function AdminPage() {
                   placeholder="Search plot number or ID..."
                   value={searchQuery}
                   onChange={e => setSearchQuery(e.target.value)}
-                  className="w-full pl-9 pr-3 py-1.5 bg-slate-950 border border-slate-700 rounded-xl text-xs text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500"
+                  className="w-full min-h-10 pl-9 pr-3 py-1.5 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white placeholder-slate-500 focus:outline-none focus:border-emerald-500"
                 />
               </div>
 
@@ -352,7 +352,7 @@ export default function AdminPage() {
                   <button
                     key={st}
                     onClick={() => setStatusFilter(st)}
-                    className={`px-3 py-1.5 rounded-xl text-xs font-semibold capitalize border transition-all ${
+                    className={`shrink-0 whitespace-nowrap px-3 py-1.5 rounded-xl text-xs font-semibold capitalize border transition-all ${
                       statusFilter === st
                         ? 'bg-slate-800 text-white border-emerald-500'
                         : 'bg-slate-950/40 text-slate-400 border-slate-800 hover:border-slate-700'
@@ -363,7 +363,7 @@ export default function AdminPage() {
                 ))}
                 <button
                   onClick={fetchProperties}
-                  className="p-1.5 rounded-xl bg-slate-800 text-slate-400 hover:text-white"
+                  className="shrink-0 p-2 rounded-xl bg-slate-800 text-slate-400 hover:text-white"
                   title="Refresh from Database"
                 >
                   <RefreshCw className="w-4 h-4" />
@@ -445,7 +445,7 @@ export default function AdminPage() {
             {bookings.length > 0 ? (
               <div className="space-y-2">
                 {bookings.map((b, idx) => (
-                  <div key={b.id || idx} className="p-3 rounded-xl bg-slate-950 border border-slate-800 flex items-center justify-between text-xs">
+                  <div key={b.id || idx} className="p-3 rounded-xl bg-slate-950 border border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
                     <div>
                       <div className="font-bold text-white flex items-center gap-2">
                         <span>{b.clientName}</span>
@@ -480,8 +480,8 @@ export default function AdminPage() {
 
       {/* Edit Property Modal */}
       {editingProperty && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
-          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full p-6 shadow-2xl animate-in zoom-in-95">
+        <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center overflow-y-auto p-3 pt-[calc(env(safe-area-inset-top)+0.75rem)] pb-[calc(env(safe-area-inset-bottom)+0.75rem)] sm:p-4 bg-slate-950/80 backdrop-blur-md">
+          <div className="bg-slate-900 border border-slate-700 rounded-2xl max-w-lg w-full max-h-full overflow-y-auto p-4 sm:p-6 shadow-2xl animate-in zoom-in-95">
             <div className="flex items-center justify-between pb-3 border-b border-slate-800">
               <h3 className="text-base font-bold text-white">
                 Edit Plot {editingProperty.plotNumber}
@@ -501,7 +501,7 @@ export default function AdminPage() {
                   <select
                     value={editingProperty.status}
                     onChange={e => setEditingProperty({ ...editingProperty, status: e.target.value as PlotStatus })}
-                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-white"
+                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white"
                   >
                     <option value="available">Available</option>
                     <option value="reserved">Reserved</option>
@@ -516,7 +516,7 @@ export default function AdminPage() {
                   <select
                     value={editingProperty.type}
                     onChange={e => setEditingProperty({ ...editingProperty, type: e.target.value as PropertyType })}
-                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-white"
+                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white"
                   >
                     <option value="residential">Residential</option>
                     <option value="lig">LIG</option>
@@ -532,7 +532,7 @@ export default function AdminPage() {
                     type="number"
                     value={editingProperty.price || ''}
                     onChange={e => setEditingProperty({ ...editingProperty, price: Number(e.target.value) })}
-                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-white"
+                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white"
                   />
                 </div>
 
@@ -542,7 +542,7 @@ export default function AdminPage() {
                     type="number"
                     value={editingProperty.area || ''}
                     onChange={e => setEditingProperty({ ...editingProperty, area: Number(e.target.value) })}
-                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-white"
+                    className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white"
                   />
                 </div>
               </div>
@@ -571,7 +571,7 @@ export default function AdminPage() {
                   rows={2}
                   value={editingProperty.description || ''}
                   onChange={e => setEditingProperty({ ...editingProperty, description: e.target.value })}
-                  className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-white resize-none"
+                  className="w-full p-2 bg-slate-950 border border-slate-700 rounded-xl text-base sm:text-xs text-white resize-none"
                 />
               </div>
 

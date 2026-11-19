@@ -34,12 +34,12 @@ export const Legend: React.FC<LegendProps> = ({
   };
 
   return (
-    <div className="absolute bottom-4 left-4 z-30 pointer-events-auto flex flex-col gap-2">
+    <div className="absolute bottom-[calc(env(safe-area-inset-bottom)+0.75rem)] left-3 z-30 pointer-events-auto flex max-w-[15rem] flex-col gap-1.5 sm:bottom-4 sm:left-4 sm:max-w-none sm:gap-2">
       {/* Map controls */}
       <div className="flex items-center gap-1.5 p-1 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-2xl">
         <button
           onClick={onResetView}
-          className="flex items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
+          className="flex min-h-10 items-center gap-1 px-2.5 py-1.5 rounded-xl text-xs font-semibold text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
           title="Reset & Fit Layout to Screen"
         >
           <RotateCcw className="w-3.5 h-3.5" />
@@ -48,7 +48,7 @@ export const Legend: React.FC<LegendProps> = ({
 
         <button
           onClick={onToggleFullscreen}
-          className="p-1.5 rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
+          className="flex min-h-10 min-w-10 items-center justify-center rounded-xl text-slate-300 hover:text-white hover:bg-slate-800 transition-colors"
           title={isFullscreen ? 'Exit Fullscreen' : 'Fullscreen Map'}
         >
           <Maximize2 className="w-3.5 h-3.5" />
@@ -56,12 +56,12 @@ export const Legend: React.FC<LegendProps> = ({
       </div>
 
       {/* Plot Status Color Legend */}
-      <div className="p-3 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-2xl text-xs">
-        <div className="text-[10px] uppercase font-bold tracking-wider text-slate-400 mb-2 flex items-center justify-between">
+      <div className="p-2 sm:p-3 rounded-2xl bg-slate-900/90 backdrop-blur-md border border-slate-700/80 shadow-2xl text-xs">
+        <div className="text-[10px] uppercase font-bold tracking-wider text-slate-400 mb-1.5 sm:mb-2 flex items-center justify-between">
           <span>Plot Availability</span>
           <span className="text-slate-300 font-mono font-normal">Total: {properties.length}</span>
         </div>
-        <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:items-center gap-2 sm:gap-x-4 sm:gap-y-2">
+        <div className="grid grid-cols-2 sm:flex sm:flex-wrap sm:items-center gap-x-2 gap-y-1.5 sm:gap-x-4 sm:gap-y-2">
           {legendItems.map(({ key, label }) => {
             const color = STATUS_COLORS[key];
             return (

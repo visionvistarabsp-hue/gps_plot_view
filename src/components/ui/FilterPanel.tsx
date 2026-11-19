@@ -65,7 +65,7 @@ export const FilterPanel: React.FC<FilterPanelProps> = ({
   };
 
   return (
-    <aside className="fixed sm:absolute top-0 right-0 sm:top-20 sm:right-4 w-full sm:w-80 h-full sm:h-auto max-h-[90vh] bg-slate-900/95 backdrop-blur-xl border-l sm:border border-slate-700/80 sm:rounded-2xl shadow-2xl z-40 p-5 flex flex-col overflow-y-auto transition-all animate-in slide-in-from-right-5 duration-200">
+    <aside className="fixed inset-x-0 bottom-0 top-auto sm:absolute sm:inset-x-auto sm:top-20 sm:right-4 w-full sm:w-80 h-[min(88dvh,42rem)] sm:h-auto max-h-[90vh] bg-slate-900/95 backdrop-blur-xl border-t sm:border border-slate-700/80 rounded-t-2xl sm:rounded-2xl shadow-2xl z-40 p-4 pb-[calc(env(safe-area-inset-bottom)+1rem)] sm:p-5 flex flex-col overflow-y-auto overscroll-contain transition-all animate-in slide-in-from-bottom sm:slide-in-from-right-5 duration-200">
       {/* Header */}
       <div className="flex items-center justify-between pb-4 border-b border-slate-800">
         <div className="flex items-center gap-2">

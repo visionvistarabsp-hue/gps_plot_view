@@ -584,7 +584,7 @@ boundary_feature = {
     "id": "project-boundary",
     "properties": {
         "id": "project-boundary",
-        "name": "Dheeraa Haffa Greens Master Boundary",
+        "name": "Vaikhunt Residency Master Boundary",
         "total_plots": 69,
         "residential_plots": 59,
         "lig_plots": 4,

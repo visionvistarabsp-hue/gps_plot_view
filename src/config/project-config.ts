@@ -1,7 +1,7 @@
 export const PROJECT_CONFIG = {
-  id: 'dheeraa-haffa-greens-01',
-  name: 'Dheeraa Haffa Greens',
-  subtitle: 'Premium Residential Plotting Scheme',
+  id: 'vaikhunt-residency-01',
+  name: 'Vaikhunt Residency',
+  subtitle: 'Premium Residential Scheme',
   location: 'Chhattisgarh, India',
   totalPlots: 69,
   residentialPlots: 59,
@@ -14,7 +14,7 @@ export const PROJECT_CONFIG = {
   currencySymbol: '₹',
   contact: {
     phone: '+91 98765 43210',
-    email: 'sales@dheeraahaffagreens.com',
+    email: 'sales@vaikhuntresidency.com',
     whatsapp: '+919876543210'
   },
   amenitiesList: [

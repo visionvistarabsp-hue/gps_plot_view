@@ -47,7 +47,7 @@ export const PlotDetails: React.FC<PlotDetailsProps> = ({
     <>
       <section
         aria-label={`Property Details for ${displayTitle}`}
-        className="fixed bottom-0 left-0 right-0 sm:bottom-auto sm:top-20 sm:right-4 sm:left-auto w-full sm:w-96 bg-slate-900/95 backdrop-blur-2xl border-t sm:border border-slate-700/80 sm:rounded-2xl shadow-2xl z-30 p-5 max-h-[85vh] sm:max-h-[80vh] overflow-y-auto transition-all animate-in slide-in-from-bottom sm:slide-in-from-right-4 duration-300"
+        className="fixed bottom-0 left-0 right-0 sm:bottom-auto sm:top-20 sm:right-4 sm:left-auto w-full sm:w-96 bg-slate-900/95 backdrop-blur-2xl border-t sm:border border-slate-700/80 rounded-t-2xl sm:rounded-2xl shadow-2xl z-30 p-4 pb-[calc(env(safe-area-inset-bottom)+1rem)] sm:p-5 max-h-[min(72dvh,38rem)] sm:max-h-[80vh] overflow-y-auto overscroll-contain transition-all animate-in slide-in-from-bottom sm:slide-in-from-right-4 duration-300"
       >
         {/* Top bar */}
         <div className="flex items-center justify-between pb-3 border-b border-slate-800">
@@ -208,8 +208,8 @@ export const PlotDetails: React.FC<PlotDetailsProps> = ({
 
       {/* Extended Specification Modal */}
       {showSpecsModal && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-950/80 backdrop-blur-md">
-          <div className="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-lg w-full p-6 shadow-2xl animate-in zoom-in-95 duration-200">
+          <div className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto p-3 pt-[calc(env(safe-area-inset-top)+0.75rem)] pb-[calc(env(safe-area-inset-bottom)+0.75rem)] sm:p-4 bg-slate-950/80 backdrop-blur-md">
+            <div className="bg-slate-900 border border-slate-700/80 rounded-2xl max-w-lg w-full max-h-[calc(100dvh-env(safe-area-inset-top)-env(safe-area-inset-bottom)-1.5rem)] overflow-y-auto p-4 sm:p-6 shadow-2xl animate-in zoom-in-95 duration-200">
             <div className="flex items-center justify-between pb-3 border-b border-slate-800">
               <h3 className="text-base font-bold text-white flex items-center gap-2">
                 <span>{displayTitle} Detailed Specifications</span>

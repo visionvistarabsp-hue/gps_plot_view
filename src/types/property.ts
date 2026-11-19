@@ -56,7 +56,6 @@ export interface CalibrationParams {
   offsetY: number;
   scale: number;
   rotation: number;
-  showSatellite: boolean;
   showGeoJson: boolean;
   showReference: boolean;
   showBoundary: boolean;

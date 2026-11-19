@@ -52,8 +52,7 @@ export const NearbyStopsSheet: React.FC<NearbyStopsSheetProps> = ({
   return (
     <div
       aria-label="Nearby Stops"
-      className="fixed inset-x-0 bottom-0 z-50 mx-auto w-full max-w-lg bg-slate-900/95 backdrop-blur-xl border-t border-slate-700/80 shadow-2xl rounded-t-2xl animate-in slide-in-from-bottom duration-300"
-      style={{ maxWidth: 'calc(100vw - 1rem)' }}
+      className="fixed inset-x-2 bottom-[env(safe-area-inset-bottom)] z-50 mx-auto w-auto max-w-lg max-h-[85dvh] bg-slate-900/95 backdrop-blur-xl border border-slate-700/80 shadow-2xl rounded-t-2xl overflow-hidden animate-in slide-in-from-bottom duration-300"
     >
       {/* Drag handle */}
       <div className="flex justify-center pt-2 pb-1">
@@ -108,7 +107,7 @@ export const NearbyStopsSheet: React.FC<NearbyStopsSheetProps> = ({
       </div>
 
       {/* Content */}
-      <div className="max-h-64 overflow-y-auto px-2 pb-3">
+      <div className="max-h-[45dvh] overflow-y-auto overscroll-contain px-2 pb-3">
         {showError ? (
           <div className="px-4 py-3 text-center text-xs text-amber-200 bg-amber-500/10 border border-amber-500/20 rounded-xl m-2">
             {error}

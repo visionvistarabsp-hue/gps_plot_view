@@ -18,7 +18,6 @@ export default function CalibrationPage() {
     offsetY: 0,
     scale: 1.0,
     rotation: 0,
-    showSatellite: true,
     showGeoJson: true,
     showReference: true,
     showBoundary: true,
@@ -43,7 +42,6 @@ export default function CalibrationPage() {
       offsetY: 0,
       scale: 1.0,
       rotation: 0,
-      showSatellite: true,
       showGeoJson: true,
       showReference: true,
       showBoundary: true,
@@ -65,7 +63,7 @@ export default function CalibrationPage() {
   };
 
   return (
-    <div className="relative w-screen h-screen overflow-hidden bg-slate-950 font-sans">
+    <div className="relative w-screen h-dvh overflow-hidden bg-slate-950 font-sans">
       <Head>
         <title>Masterplan Calibration Studio | Greenfield Meadows</title>
       </Head>
@@ -76,7 +74,6 @@ export default function CalibrationPage() {
           properties={INITIAL_PROPERTIES}
           selectedProperty={null}
           onSelectProperty={() => {}}
-          baseLayer="esri"
           calibrationParams={params}
         />
       </div>

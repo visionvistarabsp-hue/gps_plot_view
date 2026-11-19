@@ -76,7 +76,7 @@ export const SearchBox: React.FC<SearchBoxProps> = ({
   };
 
   return (
-    <div ref={containerRef} className="relative w-full max-w-sm">
+    <div ref={containerRef} className="relative w-full sm:max-w-sm">
       <div className="relative flex items-center">
         <div className="absolute left-3.5 text-slate-400 pointer-events-none">
           <Search className="w-4 h-4 text-emerald-400" />
@@ -90,8 +90,8 @@ export const SearchBox: React.FC<SearchBoxProps> = ({
           }}
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
-          placeholder="Search (e.g. 42, Plot 59, LIG-2, EWS-4)..."
-          className="w-full pl-10 pr-9 py-2.5 bg-slate-900/90 hover:bg-slate-900 text-slate-100 placeholder-slate-400 text-xs sm:text-sm font-medium rounded-xl border border-slate-700/70 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 shadow-xl backdrop-blur-md transition-all"
+          placeholder="Search plot (42, LIG-2, EWS-4)..."
+          className="w-full min-h-11 pl-10 pr-9 py-2.5 bg-slate-900/95 hover:bg-slate-900 text-slate-100 placeholder-slate-400 text-base sm:text-sm font-medium rounded-xl border border-slate-700/70 focus:border-emerald-500 focus:outline-none focus:ring-2 focus:ring-emerald-500/20 shadow-xl backdrop-blur-md transition-all"
         />
         {query && (
           <button

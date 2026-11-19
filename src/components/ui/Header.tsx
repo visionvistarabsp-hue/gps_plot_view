@@ -32,17 +32,17 @@ export const Header: React.FC<HeaderProps> = ({
   userLocation = null
 }) => {
   return (
-    <header className="absolute top-4 left-4 right-4 z-30 pointer-events-none flex items-center justify-between gap-3">
+    <header className="absolute top-[calc(env(safe-area-inset-top)+0.75rem)] left-3 right-3 z-30 pointer-events-none flex flex-col items-stretch gap-2 lg:top-4 lg:left-4 lg:right-4 lg:flex-row lg:items-center lg:justify-between lg:gap-3">
       {/* Left Project Brand Card */}
-      <div className="pointer-events-auto flex items-center gap-3 bg-slate-900/90 backdrop-blur-md border border-slate-700/60 py-2.5 px-4 rounded-2xl shadow-2xl transition-all duration-300 hover:border-emerald-500/50">
-        <div className="w-10 h-10 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-cyan-400 p-0.5 shadow-md flex items-center justify-center">
-          <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center text-emerald-400 font-black text-sm">
-            DHG
+      <div className="pointer-events-auto flex min-w-0 items-center gap-2 sm:gap-3 bg-slate-900/90 backdrop-blur-md border border-slate-700/60 py-2 px-3 sm:py-2.5 sm:px-4 rounded-2xl shadow-2xl transition-all duration-300 hover:border-emerald-500/50 lg:flex-none">
+        <div className="w-9 h-9 sm:w-10 sm:h-10 shrink-0 rounded-xl bg-gradient-to-tr from-emerald-600 via-teal-500 to-cyan-400 p-0.5 shadow-md flex items-center justify-center">
+          <div className="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center">
+            {/* Project badge - DHG removed, name displayed in h1 above */}
           </div>
         </div>
-        <div>
+        <div className="min-w-0">
           <div className="flex items-center gap-2">
-            <h1 className="text-sm md:text-base font-bold text-white tracking-tight flex items-center gap-1.5">
+            <h1 className="min-w-0 truncate text-sm md:text-base font-bold text-white tracking-tight flex items-center gap-1.5">
               {PROJECT_CONFIG.name}
               <span className="hidden md:inline-flex items-center gap-1 text-[10px] font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 px-2 py-0.5 rounded-full">
                 <Sparkles className="w-2.5 h-2.5" /> 69 Plots
@@ -57,12 +57,12 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Right Navigation & Quick Actions */}
-      <div className="pointer-events-auto flex items-center gap-2">
+      <div className="pointer-events-auto flex shrink-0 items-center justify-between gap-1 lg:justify-start lg:gap-2">
         {/* Go To Project (Geolocate + Route) CTA */}
         <button
           onClick={onGoToProject}
           disabled={isLocating || isNavigating}
-          className="flex items-center gap-1.5 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 disabled:opacity-70 disabled:cursor-wait text-white font-bold px-3.5 py-2.5 rounded-xl text-xs shadow-lg shadow-blue-500/25 transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98]"
+          className="flex min-h-10 min-w-10 items-center justify-center gap-1.5 bg-gradient-to-r from-blue-500 to-blue-600 hover:from-blue-400 hover:to-blue-500 disabled:opacity-70 disabled:cursor-wait text-white font-bold px-2.5 sm:px-3.5 py-2.5 rounded-xl text-xs shadow-lg shadow-blue-500/25 transition-all duration-200 transform hover:scale-[1.02] active:scale-[0.98]"
           title="Locate me and route to the project"
         >
           {isLocating ? (
@@ -79,7 +79,7 @@ export const Header: React.FC<HeaderProps> = ({
         {isNavigating && (
           <button
             onClick={onShowNearby}
-            className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/60 px-3 py-2.5 rounded-xl text-xs font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            className="flex min-h-10 min-w-10 items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/60 px-2.5 sm:px-3 py-2.5 rounded-xl text-xs font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             title="Find nearby fuel, ATM, food, parking"
           >
             <Compass className="w-4 h-4 text-amber-400" />
@@ -91,7 +91,7 @@ export const Header: React.FC<HeaderProps> = ({
         {isNavigating && userLocation && (
           <button
             onClick={onShareRoute}
-            className="flex items-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/60 px-3 py-2.5 rounded-xl text-xs font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
+            className="flex min-h-10 min-w-10 items-center justify-center gap-1.5 bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700/60 px-2.5 sm:px-3 py-2.5 rounded-xl text-xs font-semibold transition-all duration-200 hover:scale-[1.02] active:scale-[0.98]"
             title="Share route to the project"
           >
             <Share2 className="w-4 h-4 text-cyan-400" />
@@ -119,7 +119,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Filter Trigger Button */}
         <button
           onClick={onToggleFilters}
-          className={`flex items-center gap-2 px-3.5 py-2.5 rounded-xl text-xs font-semibold backdrop-blur-md border transition-all duration-200 shadow-lg ${
+          className={`flex min-h-10 min-w-10 items-center justify-center gap-2 px-2.5 sm:px-3.5 py-2.5 rounded-xl text-xs font-semibold backdrop-blur-md border transition-all duration-200 shadow-lg ${
             isFilterOpen || activeFilterCount > 0
               ? 'bg-emerald-600 text-white border-emerald-400 shadow-emerald-900/40'
               : 'bg-slate-900/85 text-slate-200 border-slate-700/60 hover:bg-slate-800 hover:border-slate-600'
@@ -147,7 +147,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Calibration Dev Route */}
         <Link
           href="/calibration"
-          className="hidden lg:flex items-center gap-1.5 bg-slate-900/85 hover:bg-slate-800 text-slate-300 border border-slate-700/60 px-3 py-2.5 rounded-xl text-xs font-medium transition-colors shadow-lg"
+          className="hidden min-h-10 lg:flex items-center gap-1.5 bg-slate-900/85 hover:bg-slate-800 text-slate-300 border border-slate-700/60 px-3 py-2.5 rounded-xl text-xs font-medium transition-colors shadow-lg"
           title="Calibration Mode (Development)"
         >
           <Layers className="w-3.5 h-3.5 text-cyan-400" />
@@ -157,7 +157,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Admin Dashboard */}
         <Link
           href="/admin"
-          className="flex items-center gap-1.5 bg-slate-900/85 hover:bg-slate-800 text-slate-300 border border-slate-700/60 px-3 py-2.5 rounded-xl text-xs font-medium transition-colors shadow-lg"
+          className="flex min-h-10 min-w-10 items-center justify-center gap-1.5 bg-slate-900/85 hover:bg-slate-800 text-slate-300 border border-slate-700/60 px-2.5 sm:px-3 py-2.5 rounded-xl text-xs font-medium transition-colors shadow-lg"
           title="Admin Control Center"
         >
           <ShieldCheck className="w-4 h-4 text-emerald-400" />
